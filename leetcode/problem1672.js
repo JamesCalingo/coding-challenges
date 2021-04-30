@@ -10,3 +10,5 @@ var maximumWealth = function(accounts) {
   })
  return Math.max(...totals)
 };
+
+// https://leetcode.com/problems/richest-customer-wealth/
