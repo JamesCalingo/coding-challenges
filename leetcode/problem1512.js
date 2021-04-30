@@ -13,3 +13,5 @@ var numIdenticalPairs = function(nums) {
     }
     return goodPairs
 };
+
+// https://leetcode.com/problems/number-of-good-pairs/
