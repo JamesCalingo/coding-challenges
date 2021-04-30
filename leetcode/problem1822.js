@@ -8,3 +8,5 @@ var arraySign = function(nums) {
     if(product < 0) return -1
     else return 0
 };
+
+//https://leetcode.com/problems/sign-of-the-product-of-an-array/
