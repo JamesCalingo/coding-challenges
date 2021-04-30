@@ -8,3 +8,5 @@ var isPalindrome = function(x) {
     let reverse = splitStr.reverse().join('')
     return str == reverse
 };
+
+// https://leetcode.com/problems/palindrome-number/
