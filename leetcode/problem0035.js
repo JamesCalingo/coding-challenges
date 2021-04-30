@@ -26,3 +26,5 @@ var searchInsert = function(nums, target) {
         }
     }
 };
+
+// https://leetcode.com/problems/search-insert-position/
