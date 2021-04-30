@@ -9,4 +9,4 @@ var arraySign = function(nums) {
     else return 0
 };
 
-//https://leetcode.com/problems/sign-of-the-product-of-an-array/
+// https://leetcode.com/problems/sign-of-the-product-of-an-array/
