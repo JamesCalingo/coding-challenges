@@ -9,3 +9,5 @@ var lengthOfLastWord = function(s) {
 
     return lastWord.length
 };
+
+// https://leetcode.com/problems/length-of-last-word/
