@@ -11,3 +11,5 @@ var kidsWithCandies = function(candies, extraCandies) {
     })
     return canHaveMost
 };
+
+// https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
