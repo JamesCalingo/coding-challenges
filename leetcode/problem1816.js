@@ -7,3 +7,5 @@ var truncateSentence = function(s, k) {
     let words = s.split(" ");
     return words.slice(0, k).join(" ");
 };
+
+// https://leetcode.com/problems/truncate-sentence/
