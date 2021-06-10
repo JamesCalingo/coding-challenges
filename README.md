@@ -2,7 +2,7 @@
 Where I keep solutions to coding challenges that I've completed.
 
 # Why do this?
-This is meant to be a reference for myself whenever I complete coding problems. 
+This is meant to be a reference for myself whenever I complete coding problems. Included in each file is the code I used to solve the problem, a link to the original problem itself, and, in many cases, some notes on what I think of my solution.
 
 (Plus, for you up-and-coming developers, it's a "cheeky" way to keep your activity squares green. Yes, in some ways, it's very superfluous, but some people believe that green squares are important when hiring).
  
