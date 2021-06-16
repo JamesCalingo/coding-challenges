@@ -3,24 +3,24 @@
  * @return {string[]}
  */
 var fizzBuzz = function(n) {
-    let stringArray = []
+    let stringArray = [];
     for(let i = 1; i <= n; i++){
         let indexString = i.toString()
         
         if(i % 3 === 0) {
-         indexString = "Fizz"   
-        }
+         indexString = "Fizz"; 
+        };
         if(i % 5 === 0) {
-         indexString = "Buzz"
-        }
+         indexString = "Buzz";
+        };
         if(i % 3 === 0 && i % 5 === 0) {
-            indexString = "FizzBuzz"
-        }
+            indexString = "FizzBuzz";
+        };
        
     
-        stringArray.push(indexString)
+        stringArray.push(indexString);
     }
-    return stringArray
+    return stringArray;
 };
 
 // That's right: FizzBuzz is on LeetCode!
@@ -33,23 +33,30 @@ var fizzBuzz = function(n) {
 // The better way to do this is to concatenate:
 
 var fizzBuzz = function(n) {
-    let stringArray = []
+    let stringArray = [];
     for(let i = 1; i <= n; i++){
-        let indexString = ""
+        let indexString = "";
         
         if(i % 3 === 0) {
-         indexString += "Fizz"   
-        }
+         indexString += "Fizz";
+        };
         if(i % 5 === 0) {
-         indexString += "Buzz"
-        }
+         indexString += "Buzz";
+        };
         if(indexString = "") {
-          indexString = i.toString()
-    
-        stringArray.push(indexString)
+          indexString = i.toString();
+        };
+        
+        stringArray.push(indexString);
     }
-    return stringArray
+    
+    return stringArray;
 };
+    
+// Note that the for loop in this starts at 1. I did that because the question specifically says 1-indexed.
+// If you wanted to start at 0, the for loop would be:
+
+// for(let i = 0; i < n; i++){};
   
 // https://leetcode.com/problems/fizz-buzz/
   
