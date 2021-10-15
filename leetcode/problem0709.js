@@ -20,7 +20,7 @@ var toLowerCase = function(str) {
     let splitStr = str.split("")
     for(let i = 0; i < str.length; i++) {
         let code = str.charCodeAt(i)
-        if(code >= 65 && code < 91) {
+        if(code >= 65 && code <= 90) {
             code += 32
             splitStr[i] = String.fromCharCode(code)
         }
