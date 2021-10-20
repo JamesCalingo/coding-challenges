@@ -9,3 +9,5 @@ let even = fibonacci
 .filter(num => num % 2 === 0)
 .reduce((a, b) => a + b)
 console.log(even)
+
+// https://projecteuler.net/problem=2
