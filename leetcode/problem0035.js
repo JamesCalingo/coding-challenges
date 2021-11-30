@@ -16,7 +16,7 @@ var searchInsert = function(nums, target) {
 };
 
 
-//This version combines the first two if statements using ||
+// This version combines the first two if statements using ||
 var searchInsert = function(nums, target) {
     for(let i = 0; i < nums.length; i++) {
         if(nums[i] === target || nums[i] > target) {
@@ -25,6 +25,16 @@ var searchInsert = function(nums, target) {
             return i + 1
         }
     }
+};
+
+// As it turns out, the else statement is completely unnecessary!
+var searchInsert = function(nums, target) {
+    for(let i = 0; i < nums.length; i++) {
+        if(nums[i] === target || nums[i] > target) {
+            return i
+        }    
+    }
+    return nums.length
 };
 
 // https://leetcode.com/problems/search-insert-position/
