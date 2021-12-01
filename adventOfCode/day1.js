@@ -1,2 +1,0 @@
-let descents = 0
-
