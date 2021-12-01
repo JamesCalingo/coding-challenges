@@ -8,6 +8,7 @@ for datum in list_data:
     num_data = int(datum)
     points.append(num_data)
 
+# Part 1
 def count_descents(data):
     descents = 0
     for i in range (1, len(data)):
@@ -17,6 +18,7 @@ def count_descents(data):
 
 print(count_descents(points))
 
+# Part 2
 def count_ranged_descents(data):
     descents = 0
     for i in range (len(data) - 3):
