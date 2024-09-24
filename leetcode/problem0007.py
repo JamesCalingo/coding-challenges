@@ -17,4 +17,4 @@ class Solution:
             
         return reversed_int
 
-* https://leetcode.com/problems/reverse-integer/
+# https://leetcode.com/problems/reverse-integer/
