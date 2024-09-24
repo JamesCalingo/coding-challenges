@@ -9,3 +9,5 @@ func twoSum(nums []int, target int) []int {
     }
     return solution
 }
+
+// https://leetcode.com/problems/two-sum/
