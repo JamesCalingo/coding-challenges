@@ -12,3 +12,5 @@ var removeDuplicates = function(nums) {
 };
 
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+// I thought about using a set for this, but that requires a variable when the problem asks you to do an in place operation, so it doesn't work
