@@ -11,6 +11,6 @@ class Solution:
                   # I return the indicies immediately since we only want one solution.
                   
          
-# This is my first Python solution for LeetCode. It's a LOT slower than JS, but takes up less than half the memory on average, so...
+# This is a LOT slower than JS, but takes up less than half the memory on average, so...
 
-# // https://leetcode.com/problems/two-sum/
+# https://leetcode.com/problems/two-sum/
