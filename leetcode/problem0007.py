@@ -16,3 +16,5 @@ class Solution:
             return 0
             
         return reversed_int
+
+* https://leetcode.com/problems/reverse-integer/
