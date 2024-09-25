@@ -9,3 +9,5 @@ while last < 4000000:
 evens = [i for i in fibonacci if i % 2 == 0]
 even_sum = functools.reduce(lambda a, b: a + b, evens)
 print(even_sum)
+
+# https://projecteuler.net/problem=2
