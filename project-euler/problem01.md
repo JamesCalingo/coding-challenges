@@ -8,4 +8,4 @@
 
 This is basically a modified version of good ol' "FizzBuzz": when we hit our triggers, we're supposed to do something with them. Thankfully, we don't have to worry about what happens when BOTH triggers are hit at the same time (i.e. 15 and its multiples).
 
-For this case, I used a sum variable that is added to whenever either trigger is hit. There really isn't much more to that, as the solution looks quite similar in both JavaScript and Python.
+For this case, I used a sum variable that is added to whenever either trigger is hit. There really isn't much more to that, as the solution looks quite similar in each language in this folder.
