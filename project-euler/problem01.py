@@ -4,3 +4,5 @@ for i in range(1000):
     sum += i
 
 print(sum)
+
+# https://projecteuler.net/problem=1
