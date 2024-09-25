@@ -11,3 +11,5 @@ func main() {
 	}
 	fmt.Println(sum)
 }
+
+// https://projecteuler.net/problem=1
