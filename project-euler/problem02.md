@@ -22,13 +22,13 @@ I managed to do this "in place", so to speak: I initialized the answer AS the su
 
 JavaScript's `filter` and `reduce` methods make this easy: we simply filter out all of the odd values from our fibonacci array, and then reduce them into their sum.
 
-## Python
+### Python
 
 This is very similar to the JavaScript approach, with one notable difference: list comprehension.
 
 For those unfamiliar with it, list comprehension is a (but not necessarily THE) "Pythonic" way of filtering the array - you create a new one with only the values you need (Yes, this makes Python likely the most memory complex of these solutions). Once you have that list, Python's `reduce` method is similar to JavaScripts though written differently: you declare a function (i.e. a + b) as a lambda (anonymous) function, and then declare what you want to reduce.
 
-## Go
+### Go
 
 For this one I decided to use a sum variable, because it showcases how writing loops in Go can be wildly different thanks to Go's `range` method.
 
