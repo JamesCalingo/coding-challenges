@@ -30,3 +30,5 @@ var romanToInt = function(s) {
 };
 
 // https://leetcode.com/problems/roman-to-integer/description/
+
+// This was my first LeetCode problem in a while, so it's a bit...interesting. A map would have made this better, but I wasn't super certain on how that would work.
